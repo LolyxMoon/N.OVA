@@ -60,13 +60,29 @@ N.OVA addresses this gap by combining purpose-built AI tooling with blockchain-n
 - Token transfer functionality
 - DAO governance interface for proposal submission and voting
 
-### Comprehensive Dashboard
-- Real-time NFT and token portfolio viewer powered by Helius
-- AI chat history and conversation memory
-- Transaction timeline visualization
-- Experience points tracker
-- Badge and achievement progression
-- Profile sharing module
+- Composes a custom AI-generated soundtrack based on user wallet behavior
+- Tracks are mood-personalized (cinematic, lo-fi, glitch) and evolve over time
+- Users can remix and regenerate tracks on demand
+
+### Visual Identity Card
+
+- AI-generated image (via Stable Diffusion) unique to each user
+- Badge system based on behavioral milestones
+- Rank progression: Echo → Pulse → Signal → Cipher → Nexus → Oracle → Sovereign
+
+### Platform Utilities
+
+- Faucet: claim 10 $N.OVA daily
+- Devnet swap UI (SPL token ↔ $NOVA)
+- Transfer SPL tokens to others
+- DAO mock interface to propose/vote on features
+
+### Dashboard & Profile
+
+- Real-time NFT/token viewer (via Helius)
+- AI chat memory and transaction timeline
+- XP tracker and badge progression
+- Profile export/sharing module (with embedded card and music)
 
 ---
 
@@ -153,42 +169,13 @@ Access the application at `http://localhost:3000`
 
 ## Technology Stack
 
-| Technology | Purpose |
-|------------|---------|
-| Next.js 14 | React framework with App Router |
-| TypeScript | Type-safe development |
-| TailwindCSS | Utility-first styling |
-| Framer Motion | Animation library |
-| Groq | High-performance LLM inference |
-| LLaMA3 | Advanced open-source language model |
-| LazorKit | Passkey-based wallet abstraction |
-| Supabase | PostgreSQL database and authentication |
-| Helius | Solana blockchain data API |
-| MusicGen | AI-powered audio synthesis |
-| Stable Diffusion | Image generation via Replicate |
-| Solana Web3.js | Blockchain interaction |
-
----
-
-## Project Structure
-
-```
-NOVA/
-├── app/                    # Next.js app directory
-│   ├── ai/                # AI chat interface
-│   ├── dashboard/         # User dashboard
-│   ├── music/             # Music generation
-│   ├── nft/               # NFT card system
-│   └── profile/           # User profiles
-├── components/            # React components
-│   ├── 3d/               # Three.js visualizations
-│   ├── charts/           # Data visualization
-│   └── ui/               # UI components
-├── hooks/                 # Custom React hooks
-├── lib/                   # Utility functions
-│   └── services/         # API service layers
-└── public/               # Static assets
-```
+- Groq – ultra-fast LLM inference  
+- LLaMA3 – advanced open-source LLM  
+- LazorKit – passkey smart wallet abstraction  
+- Supabase – real-time DB for XP/memory  
+- Helius – Solana wallet analysis  
+- Suno AI – AI audio synthesis  
+- Stable Diffusion – hosted AI image generation
 
 ---
 
