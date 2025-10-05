@@ -7,6 +7,12 @@
   
   Transform your wallet data into a living, expressive digital identity
   
+  [![Solana](https://img.shields.io/badge/Solana-Colosseum%20Breakout%202025-14F195?style=flat&logo=solana&logoColor=white)](https://colosseum.org/)
+  [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Solana](https://img.shields.io/badge/Solana-Devnet-14F195?style=flat&logo=solana&logoColor=white)](https://solana.com/)
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](https://opensource.org/licenses/MIT)
+  
   [Live Demo](https://nova-ai.vercel.app) • [Watch Video](https://www.youtube.com/watch?v=aQttf04cBU4)
   
 </div>
@@ -60,25 +66,7 @@ N.OVA addresses this gap by combining purpose-built AI tooling with blockchain-n
 - Token transfer functionality
 - DAO governance interface for proposal submission and voting
 
-- Composes a custom AI-generated soundtrack based on user wallet behavior
-- Tracks are mood-personalized (cinematic, lo-fi, glitch) and evolve over time
-- Users can remix and regenerate tracks on demand
-
-### Visual Identity Card
-
-- AI-generated image (via Stable Diffusion) unique to each user
-- Badge system based on behavioral milestones
-- Rank progression: Echo → Pulse → Signal → Cipher → Nexus → Oracle → Sovereign
-
-### Platform Utilities
-
-- Faucet: claim 10 $N.OVA daily
-- Devnet swap UI (SPL token ↔ $NOVA)
-- Transfer SPL tokens to others
-- DAO mock interface to propose/vote on features
-
 ### Dashboard & Profile
-
 - Real-time NFT/token viewer (via Helius)
 - AI chat memory and transaction timeline
 - XP tracker and badge progression
@@ -169,19 +157,34 @@ Access the application at `http://localhost:3000`
 
 ## Technology Stack
 
-- Groq – ultra-fast LLM inference  
-- LLaMA3 – advanced open-source LLM  
-- LazorKit – passkey smart wallet abstraction  
-- Supabase – real-time DB for XP/memory  
-- Helius – Solana wallet analysis  
-- Suno AI – AI audio synthesis  
-- Stable Diffusion – hosted AI image generation
+<div align="center">
+
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Solana](https://img.shields.io/badge/Solana-14F195?style=for-the-badge&logo=solana&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+
+</div>
+
+### Core Technologies
+
+- **Groq** – Ultra-fast LLM inference engine
+- **LLaMA3** – Advanced open-source language model
+- **LazorKit** – Passkey-based smart wallet abstraction
+- **Supabase** – PostgreSQL database with real-time capabilities
+- **Helius** – Comprehensive Solana blockchain data API
+- **Suno AI** – AI-powered audio synthesis
+- **Stable Diffusion** – Generative AI for image creation via Replicate
 
 ---
 
 ## Team
 
-This project was developed by a team of three engineers for the Colosseum Breakout Hackathon 2024.
+This project was developed by a team of three engineers as participants in the **Solana Colosseum Breakout Hackathon 2025**.
 
 | Name  | Role |
 |-------|------|
@@ -201,11 +204,12 @@ This project is open source and available under the MIT License.
 
 We extend our gratitude to the following organizations and projects:
 
-- Groq for providing ultra-fast LLM inference infrastructure
-- LazorKit for pioneering passkey-based wallet technology
-- Replicate for accessible AI model deployment
-- Solana Foundation for blockchain infrastructure and developer resources
-- Helius for comprehensive blockchain data APIs
+- **Solana Foundation & Colosseum** for hosting the Breakout Hackathon 2025 and providing world-class blockchain infrastructure
+- **Groq** for providing ultra-fast LLM inference infrastructure
+- **LazorKit** for pioneering passkey-based wallet technology
+- **Replicate** for accessible AI model deployment
+- **Helius** for comprehensive blockchain data APIs
+- **Supabase** for database and authentication services
 
 ---
 
