@@ -357,7 +357,7 @@ const NovaDAO = () => {
       timeRemaining: "1D 8H",
       quorumMet: true,
       description:
-        "Establish partnership program with Solana Saga to integrate mobile wallet solutions. This partnership will extend N.OVA's reach to mobile users and create a seamless cross-device experience.",
+        "Establish partnership program with Solana Saga to integrate mobile wallet solutions. This partnership will extend Nouwa's reach to mobile users and create a seamless cross-device experience.",
       author: "2jvMnXpQ...3tFzK",
       fundingRequest: "3,500,000 Nouwa",
     },
@@ -1931,4 +1931,4 @@ Nouwa                                to 3x
   );
 };
 
-export default Nouwa;
+export default NovaDAO;

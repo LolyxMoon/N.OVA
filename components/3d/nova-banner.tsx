@@ -17,14 +17,14 @@ const NovaBanner = () => {
       
       {/* Overlay Content */}
       <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
-        {/* N.OVA text */}
+        {/* Nouwa text */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
           className="absolute top-6 left-8 text-3xl font-bold text-white"
         >
-          N.OVA
+          Nouwa
         </motion.div>
         
         {/* Market Cap data */}

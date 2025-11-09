@@ -55,8 +55,8 @@ const cn = (...classes: any[]) => {
 
 // Token data interface with initial values
 const initialTokenData = {
-  name: "N.OVA",
-  symbol: "$N.OVA",
+  name: "Nouwa",
+  symbol: "Nouwa",
   price: 0.0235,
   marketCap: "12.5M",
   circulatingSupply: "0",
@@ -473,7 +473,7 @@ const NovaTokenomics = () => {
     }
   };
 
-  // Handle token claim - implements 10 N.OVA per 24h faucet
+  // Handle token claim - implements 10 Nouwa per 24h faucet
   const handleClaim = async () => {
     if (!isConnected || !publicKey) {
       return;
@@ -699,12 +699,12 @@ const NovaTokenomics = () => {
   const getFromTokenInfo = () => {
     return swapDirection === "solToNova"
       ? { symbol: "SOL", gradient: "from-orange-500 to-amber-500" }
-      : { symbol: "N.OVA", gradient: "from-purple-500 to-blue-500" };
+      : { symbol: "Nouwa", gradient: "from-purple-500 to-blue-500" };
   };
 
   const getToTokenInfo = () => {
     return swapDirection === "solToNova"
-      ? { symbol: "N.OVA", gradient: "from-purple-500 to-blue-500" }
+      ? { symbol: "Nouwa", gradient: "from-purple-500 to-blue-500" }
       : { symbol: "SOL", gradient: "from-orange-500 to-amber-500" };
   };
 
@@ -738,7 +738,7 @@ const NovaTokenomics = () => {
       if (swapDirection === "solToNova" && fromAmountNum > solBalance) {
         throw new Error("Insufficient SOL balance");
       } else if (swapDirection === "novaToSol" && fromAmountNum > novaBalance) {
-        throw new Error("Insufficient N.OVA balance");
+        throw new Error("Insufficient Nouwa balance");
       }
 
       // In a real implementation, this would call a smart contract
@@ -786,7 +786,7 @@ const NovaTokenomics = () => {
       <div className="container mx-auto px-2 pt-24 pb-16 relative z-10">
         {/* Main Content */}
         <div className="max-w-7xl mx-auto">
-          {/* N.OVA Banner */}
+          {/* Nouwa Banner */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -805,15 +805,15 @@ const NovaTokenomics = () => {
               className="border border-white/10 px-6 py-8"
             >
               <div className="mb-6">
-                <h1 className="text-5xl font-light mb-6">N.OVA Details</h1>
+                <h1 className="text-5xl font-light mb-6">NouwaDetails</h1>
                 <p className="text-white/70 uppercase">
-                  N.OVA OPERATES AS AN INDEX FUND, TRACKING{" "}
+                  Nouwa OPERATES AS AN INDEX FUND, TRACKING{" "}
                   <span className="text-white font-medium">
                     SOLANA'S TOP 100 AI PROJECTS
                   </span>
                 </p>
                 <p className="text-white/70 uppercase">
-                  THINK OF N.OVA AS THE S&P500 OF SOLANA-BASED AI PROJECTS,
+                  THINK OF Nouwa AS THE S&P500 OF SOLANA-BASED AI PROJECTS,
                   INCLUDING AI INFRASTRUCTURE PROJECTS, AI AGENTS, AND AI MEME
                   TOKENS.
                 </p>
@@ -993,7 +993,7 @@ const NovaTokenomics = () => {
                       SUPPLY VALUE
                     </p>
                     <p className="text-4xl font-light">
-                      {tokenData.circulatingSupply} N.OVA
+                      {tokenData.circulatingSupply} Nouwa
                     </p>
                   </div>
                   <div className="p-6 border border-white/30 m-0.5 bg-black">
@@ -1141,7 +1141,7 @@ const NovaTokenomics = () => {
                     <span>= 42,500</span>
                     <img
                       src="/images/logo.png"
-                      alt="N.OVA"
+                      alt="Nouwa"
                       className="w-4 h-4 rounded-full object-contain"
                     />
                   </div>
@@ -1280,7 +1280,7 @@ const NovaTokenomics = () => {
                             {tx.name}
                           </div>
                         </td>
-                        <td className="py-4 px-6">{tx.amount} N.OVA</td>
+                        <td className="py-4 px-6">{tx.amount} Nouwa</td>
                         <td className="py-4 px-6">{tx.value} SOL</td>
                         <td className="py-4 px-6 text-white/50">{tx.time}</td>
                         <td className="py-4 px-6">{tx.status}</td>
@@ -1318,7 +1318,7 @@ const NovaTokenomics = () => {
           {/* Faucet Section with Bento Grid Layout */}
           <div className="border border-white/30 p-0.5 mb-8">
             <div className="border border-white/10 bg-black p-8">
-              <h2 className="text-5xl font-light mb-10">Get N.OVA Tokens</h2>
+              <h2 className="text-5xl font-light mb-10">Get Nouwa Tokens</h2>
 
               {/* Bento Grid Layout */}
               <div className="grid grid-cols-12 gap-4">
@@ -1350,13 +1350,13 @@ const NovaTokenomics = () => {
                       <div className="flex items-baseline">
                         <div className="text-7xl font-light">10</div>
                         <div className="text-2xl text-purple-400 ml-2">
-                          N.OVA
+                          Nouwa
                         </div>
                       </div>
                     </div>
                     <div className="self-end">
                       <div className="px-4 py-2 border border-white/20 text-xs text-white/70 uppercase">
-                        10 N.OVA DAILY LIMIT
+                        10 Nouwa DAILY LIMIT
                       </div>
                     </div>
                   </div>
@@ -1430,14 +1430,14 @@ const NovaTokenomics = () => {
                     <div className="flex items-center gap-3 mb-4">
                       <img
                         src="/images/logo.png"
-                        alt="N.OVA Token"
+                        alt="Nouwa Token"
                         className="w-8 h-8 rounded-full object-contain"
                       />
-                      <div className="text-xl">N.OVA Token</div>
+                      <div className="text-xl">Nouwa Token</div>
                     </div>
                     <div className="flex flex-col md:flex-row">
                       <p className="text-white/70 flex-1 mb-4 md:mb-0 md:pr-6">
-                        Utility token powering the N.OVA ecosystem. Use for
+                        Utility token powering the Nouwa ecosystem. Use for
                         governance, staking, and access to premium features.
                       </p>
                       <div className="flex gap-4">
@@ -1460,7 +1460,7 @@ const NovaTokenomics = () => {
           {/* Ranking System Section - Add after the Get Tokens Section */}
           <div className="border border-white/30 p-0.5 mb-8">
             <div className="border border-white/10 bg-black p-8">
-              <h2 className="text-5xl font-light mb-8">N.OVA Ranking System</h2>
+              <h2 className="text-5xl font-light mb-8">Nouwa Ranking System</h2>
 
               <div className="mb-12">
                 <p className="text-white/70 uppercase text-center">
@@ -1710,7 +1710,7 @@ const NovaTokenomics = () => {
             </div>
           </div>
 
-          {/* Revised N.OVA Ecosystem Section */}
+          {/* Revised Nouwa Ecosystem Section */}
           <div className="border border-white/30 p-0.5 mt-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -1718,7 +1718,7 @@ const NovaTokenomics = () => {
               transition={{ duration: 0.7, delay: 0.7 }}
               className="border border-white/10 px-8 py-10 bg-black"
             >
-              <h2 className="text-5xl font-light mb-10">N.OVA Ecosystem</h2>
+              <h2 className="text-5xl font-light mb-10">Nouwa Ecosystem</h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {/* N.TOKENOMICS Card */}
@@ -2033,7 +2033,7 @@ const NovaTokenomics = () => {
                       <div className="space-y-3 pt-4 border-t border-white/10">
                         <div className="flex justify-between text-sm">
                           <span className="text-white/60 uppercase">Rate</span>
-                          <span>1 SOL = 42,500 N.OVA</span>
+                          <span>1 SOL = 42,500 Nouwa</span>
                         </div>
                         <div className="flex justify-between text-sm">
                           <span className="text-white/60 uppercase">

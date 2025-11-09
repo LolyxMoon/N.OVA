@@ -53,7 +53,7 @@ export default function IdentityCardGenerator() {
   const [mounted, setMounted] = useState(false);
 
   // ID Card specific state
-  const [userName, setUserName] = useState("N.OVA User");
+  const [userName, setUserName] = useState("Nouwa User");
   const [isEditing, setIsEditing] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
   const [userAvatar, setUserAvatar] = useState("/placeholder.svg?height=100&width=100");
@@ -134,7 +134,7 @@ export default function IdentityCardGenerator() {
       const savedData = localStorage.getItem("identityCardData");
       if (savedData) {
         const parsedData = JSON.parse(savedData);
-        setUserName(parsedData.userName || "N.OVA User");
+        setUserName(parsedData.userName || "Nouwa User");
         setUserAvatar(parsedData.userAvatar || "/placeholder.svg?height=100&width=100");
       }
     }

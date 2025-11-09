@@ -129,7 +129,7 @@ const NIdentityBanner = () => {
                 </div>
                 <div className="flex-1">
                   <div className="text-sm font-bold text-white mb-1">
-                    {userCardData?.userName || "N.OVA User"}
+                    {userCardData?.userName || "Nouwa User"}
                   </div>
                   <div className="text-xs text-white/70 font-mono mb-1 truncate">
                     {formatAddress(userCardData?.userAddress)}

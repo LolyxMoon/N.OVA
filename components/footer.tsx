@@ -107,10 +107,10 @@ export default function Footer() {
           <div className="flex flex-col items-start">
             <h3 className="text-xs uppercase tracking-widest text-white/50 mb-1">EMAIL</h3>
             <Link 
-              href="mailto:contact@n.ova" 
+              href="mailto:contact@Nouwa" 
               className="text-xs text-white/70 hover:text-white transition-colors duration-300"
             >
-              n.ova.contact.003@gmail.com
+              Nouwa.contact.003@gmail.com
             </Link>
           </div>
           

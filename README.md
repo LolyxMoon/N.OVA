@@ -1,7 +1,7 @@
 <div align="center">
   <img src="public/images/logo.png" alt="Nouwa Logo" width="120"/>
   
-  # N.OVA
+  # Nouwa
   a
   **AI-Native Identity Platform for Web3**
   

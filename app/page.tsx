@@ -305,7 +305,7 @@ export default function Home() {
           >
             <div className="inline-block relative px-6 py-2">
               <span className="text-xs sm:text-sm tracking-[0.2em] text-white/80 font-light">
-                NEXT GENERATION SOVEREIGN AI SYSTEM
+                CONTRACT: xxxxxxxx
               </span>
               <div className="absolute bottom-0 left-1/2 w-[40px] h-[1px] -translate-x-1/2 bg-gradient-to-r from-transparent via-purple-500/50 to-transparent"></div>
             </div>

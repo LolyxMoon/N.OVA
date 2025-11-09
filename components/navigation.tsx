@@ -80,9 +80,9 @@ export default function Navigation() {
   // Grouped navigation items
   const navGroups = [
     {
-      name: "N.OVA",
+      name: "Nouwa",
       items: [
-        { name: "N.OVA", href: "/" },
+        { name: "Nouwa", href: "/" },
         { name: "N.ABOUT", href: "/about" }
       ]
     },
@@ -125,7 +125,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="relative group">
             <div className="flex items-center">
-              <span className="text-xl font-mono font-light">N.OVA</span>
+              <span className="text-xl font-mono font-light">Nouwa</span>
               <motion.div
                 className="absolute -bottom-1 left-0 h-px bg-white w-0 group-hover:w-full transition-all duration-300"
                 initial={{ width: 0 }}
