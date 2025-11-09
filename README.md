@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="public/images/logo.png" alt="N.OVA Logo" width="120"/>
+  <img src="public/images/logo.png" alt="Nouwa Logo" width="120"/>
   
   # N.OVA
-  
+  a
   **AI-Native Identity Platform for Web3**
   
   Transform your wallet data into a living, expressive digital identity
@@ -21,7 +21,7 @@
 
 ## Overview
 
-N.OVA is an AI-powered platform built on Solana that transforms blockchain data into personalized, expressive identities. Through a comprehensive suite of generative tools including natural language chat, AI-composed music, dynamic identity cards, and on-chain analytics, N.OVA creates a unique experience around each user's blockchain behavior.
+Nouwa is an AI-powered platform built on Solana that transforms blockchain data into personalized, expressive identities. Through a comprehensive suite of generative tools including natural language chat, AI-composed music, dynamic identity cards, and on-chain analytics, Nouwa creates a unique experience around each user's blockchain behavior.
 
 ### The Problem
 
@@ -29,7 +29,7 @@ Modern Web3 platforms surface balances and transaction logs but fail to translat
 
 ### The Solution
 
-N.OVA addresses this gap by combining purpose-built AI tooling with blockchain-native data, introducing the first modular AI identity system designed specifically for Web3 users.
+Nouwa addresses this gap by combining purpose-built AI tooling with blockchain-native data, introducing the first modular AI identity system designed specifically for Web3 users.
 
 ---
 
@@ -61,7 +61,7 @@ N.OVA addresses this gap by combining purpose-built AI tooling with blockchain-n
 - Shareable profile exports with embedded media
 
 ### Platform Tools
-- Daily token faucet: claim 10 $N.OVA tokens
+- Daily token faucet: claim 10 $Nouwa tokens
 - Devnet swap interface for SPL token exchanges
 - Token transfer functionality
 - DAO governance interface for proposal submission and voting
@@ -223,6 +223,6 @@ For questions, feedback, or collaboration opportunities, please open an issue on
   
   **Web3 identity doesn't end with what you hold — it begins with what you become.**
   
-  Built with precision and purpose by the N.OVA team.
+  Built with precision and purpose by the Nouwa team.
   
 </div>
