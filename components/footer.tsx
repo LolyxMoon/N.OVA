@@ -139,12 +139,12 @@ export default function Footer() {
             <div className="relative">
               {/* Shadow/glow effect for depth */}
               <h1 className="absolute text-[100px] sm:text-[150px] md:text-[200px] lg:text-[240px] xl:text-[280px] font-bold tracking-tighter text-purple-600/10 blur-md select-none">
-                N.OVA
+                Nouwa
               </h1>
               
               {/* Main logo text */}
               <h1 className="text-[100px] sm:text-[150px] md:text-[200px] lg:text-[240px] xl:text-[280px] font-bold tracking-tighter text-white relative">
-                N.OVA
+                Nouwa
               </h1>
               
               {/* Animated scan line */}
@@ -165,7 +165,7 @@ export default function Footer() {
         <div className="border-t border-white/10 px-6 md:px-10 pt-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-1">
-              <span className="text-xs text-white/30">N.OVA</span>
+              <span className="text-xs text-white/30">Nouwa</span>
               <span className="text-xs text-white/30">[C]{currentYear}. ALL RIGHTS RESERVED.</span>
             </div>
           </div>

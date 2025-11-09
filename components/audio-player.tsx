@@ -284,11 +284,11 @@ const AudioPlayer = ({ isOpen, onClose }: AudioPlayerProps) => {
       }
     } else {
       // Reset title when not playing
-      document.title = "N.OVA";
+      document.title = "Nouwa";
     }
     
     return () => {
-      document.title = "N.OVA";
+      document.title = "Nouwa";
     };
   }, [isPlaying, currentTrackIndex, activeTab, tracks, userTracks]);
   

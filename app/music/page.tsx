@@ -786,7 +786,7 @@ export default function MusicGenerator() {
               EXPERIENCES
             </p>
             <p className="text-white/70 uppercase max-w-4xl mt-2">
-              EACH NOVA TOKEN HOLDER RECEIVES CREDITS TO CREATE AND OWN THEIR
+              EACH Nouwa TOKEN HOLDER RECEIVES CREDITS TO CREATE AND OWN THEIR
               GENERATED MUSIC AS NFTs.
             </p>
           </div>

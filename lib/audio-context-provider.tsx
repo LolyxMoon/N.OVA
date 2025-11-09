@@ -25,21 +25,21 @@ const defaultTracks = [
   {
     id: "1",
     title: "Ambient Cyberpunk",
-    artist: "N.OVA",
+    artist: "Nouwa",
     duration: 180, // in seconds
     src: "/audio/ambient_cyberpunk.mp3"
   },
   {
     id: "2",
     title: "Digital Dreams",
-    artist: "N.OVA",
+    artist: "Nouwa",
     duration: 240,
     src: "/audio/digital_dreams.mp3"
   },
   {
     id: "3",
     title: "Quantum Resonance",
-    artist: "N.OVA",
+    artist: "Nouwa",
     duration: 210,
     src: "/audio/quantum_resonance.mp3"
   }

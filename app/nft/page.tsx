@@ -494,7 +494,7 @@ export default function IdentityCardGenerator() {
 
                       <div>
                         <label className="text-xs text-white/60 block mb-1 uppercase">
-                          Sovereign Rank (Based on NOVA Balance)
+                          Sovereign Rank (Based on Nouwa Balance)
                         </label>
                         <div className={`bg-black text-white/90 border ${userRank.color}/30 p-2 font-mono`}>
                           {userRank.name}

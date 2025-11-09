@@ -389,7 +389,7 @@ const TokenTransfer = () => {
       const knownTokens: Record<string, {symbol: string, name: string, logo: string}> = {
         "H2LhfTsiT2RWKpbyDLstZALcvVyUcaZmM2T7GtQoGJCu": {
           symbol: "NOVA",
-          name: "N.OVA",
+          name: "N.Nouwa",
           logo: "/images/logo.png"
         },
         // Add more known tokens here

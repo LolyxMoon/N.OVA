@@ -15,7 +15,7 @@
   
   [Live Demo](https://nova-ai.vercel.app) • [Watch Video](https://www.youtube.com/watch?v=aQttf04cBU4)
   
-</div>
+</div>a
 
 ---
 

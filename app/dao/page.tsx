@@ -242,7 +242,7 @@ const NovaDAO = () => {
       allocation: "200,000,000",
       percentage: "20%",
       description:
-        "Are wallets that hold the NOVA coins for the purpose of contributing its value inside the main fund smart wallet to grow it, a proportion of the allocation trading decisions should be governed by community voting, and a proportion should be automated by missO and the market makers.",
+        "Are wallets that hold the Nouwa coins for the purpose of contributing its value inside the main fund smart wallet to grow it, a proportion of the allocation trading decisions should be governed by community voting, and a proportion should be automated by missO and the market makers.",
       features: [
         "• Rewards for early users, data contributors, card creators, AI users",
         "• Retroactive airdrop, Echo missions, badge unlocks",
@@ -252,12 +252,12 @@ const NovaDAO = () => {
     },
     {
       id: "03",
-      name: "NOVA Ventures",
+      name: "Nouwa Ventures",
       title: "Team & Core Contributors (15%)",
       allocation: "150,000,000",
       percentage: "15%",
       description:
-        "NOVA Ventures introduces a revolutionary investment model where artificial intelligence meets community-driven venture capital. As a decentralized investment vehicle powered by MissO (the world's first AI CEO) and governed by NOVA token holders, NOVA Ventures represents a paradigm shift in how venture capital operates in the Web3 space.",
+        "Nouwa Ventures introduces a revolutionary investment model where artificial intelligence meets community-driven venture capital. As a decentralized investment vehicle powered by MissO (the world's first AI CEO) and governed by NOVA token holders, NOVA Ventures represents a paradigm shift in how venture capital operates in the Web3 space.",
       features: [
         "• Founders, developers, designers allocation",
         "• 24-36 month vesting schedule with anti-dumping mechanisms",
@@ -272,7 +272,7 @@ const NovaDAO = () => {
       allocation: "150,000,000",
       percentage: "15%",
       description:
-        "Funding allocated to support the greater Solana ecosystem, focusing on projects that enhance N.OVA's capabilities, reach, and utility. The Ecosystem Fund ensures continuous innovation and strategic growth through carefully selected partnerships.",
+        "Funding allocated to support the greater Solana ecosystem, focusing on projects that enhance Nouwa's capabilities, reach, and utility. The Ecosystem Fund ensures continuous innovation and strategic growth through carefully selected partnerships.",
       features: [
         "• Strategic partnerships, developer grants, partner integrations",
         "• Example: support for AI plugin projects, NFT art initiatives",
@@ -282,12 +282,12 @@ const NovaDAO = () => {
     },
     {
       id: "05",
-      name: "NOVA CHARITY",
+      name: "Nouwa CHARITY",
       title: "Community Rewards (10%)",
       allocation: "100,000,000",
       percentage: "10%",
       description:
-        "NOVA introduces NOVA CHARITY, a revolutionary approach to charitable giving where our community and AI work together to create meaningful social impact. 3% of all NOVA fund management fees are automatically allocated to charitable causes, with recipients chosen through community voting and vetted by MissO AI.",
+        "Nouwa introduces Nouwa CHARITY, a revolutionary approach to charitable giving where our community and AI work together to create meaningful social impact. 3% of all NOVA fund management fees are automatically allocated to charitable causes, with recipients chosen through community voting and vetted by MissO AI.",
       features: [
         "• Staking programs, DAO voting, content contribution rewards",
         "• Advanced badge unlocks, AI character creation incentives",
@@ -302,9 +302,9 @@ const NovaDAO = () => {
       allocation: "20,000,000",
       percentage: "2%",
       description:
-        "Allocation dedicated to ensuring sufficient market liquidity for NOVA tokens across decentralized exchanges. This allocation helps maintain a healthy trading environment with minimal slippage for all market participants.",
+        "Allocation dedicated to ensuring sufficient market liquidity for Nouwa tokens across decentralized exchanges. This allocation helps maintain a healthy trading environment with minimal slippage for all market participants.",
       features: [
-        "• Creating pools on DEXs (SOL ↔ NOVA)",
+        "• Creating pools on DEXs (SOL ↔ Nouwa)",
         "• Used for test swaps and listings",
         "• Market making provisions",
         "• Trading pair establishment",
@@ -343,7 +343,7 @@ const NovaDAO = () => {
       description:
         "Enhance N.AI infrastructure to analyze on-chain data more efficiently and provide users with deeper insights. The upgrade will include new data processing pipelines and advanced ML models.",
       author: "GZN35rw1vV...nJGFXZ",
-      fundingRequest: "5,000,000 NOVA",
+      fundingRequest: "5,000,000 Nouwa",
     },
     {
       id: "NIP-002",
@@ -359,7 +359,7 @@ const NovaDAO = () => {
       description:
         "Establish partnership program with Solana Saga to integrate mobile wallet solutions. This partnership will extend N.OVA's reach to mobile users and create a seamless cross-device experience.",
       author: "2jvMnXpQ...3tFzK",
-      fundingRequest: "3,500,000 NOVA",
+      fundingRequest: "3,500,000 Nouwa",
     },
     {
       id: "NIP-003",
@@ -469,11 +469,11 @@ const NovaDAO = () => {
             <h1 className="text-8xl font-light mb-6">DAO</h1>
             <div className="max-w-4xl space-y-2">
               <p className="text-white/70 uppercase">
-                N.OVA DAO IS A DECENTRALIZED GOVERNANCE SYSTEM OPERATED BY THE
-                NOVA TOKEN HOLDING COMMUNITY.
+                Nouwa DAO IS A DECENTRALIZED GOVERNANCE SYSTEM OPERATED BY THE
+                Nouwa TOKEN HOLDING COMMUNITY.
               </p>
               <p className="text-white/70 uppercase">
-                EACH NOVA TOKEN HOLDER HAS VOTING RIGHTS TO DETERMINE THE FUTURE
+                EACH Nouwa TOKEN HOLDER HAS VOTING RIGHTS TO DETERMINE THE FUTURE
                 DIRECTION OF THE WEB3 AI PLATFORM.
               </p>
             </div>
@@ -531,7 +531,7 @@ const NovaDAO = () => {
                 Tokenomics
               </h2>
               <p className="text-white/70 uppercase mb-6">
-                TOTAL SUPPLY: 1,000,000,000 NOVA
+                TOTAL SUPPLY: 1,000,000,000 Nouwa
               </p>
 
               <div className="overflow-x-auto">
@@ -944,7 +944,7 @@ const NovaDAO = () => {
               className="border border-white/10 px-6 py-12 flex flex-col items-center justify-center"
             >
               <h2 className="text-6xl font-light mb-8 text-center">
-                Buy $N.OVA
+                Buy $Nouwa
               </h2>
 
               <motion.button
@@ -990,10 +990,10 @@ const NovaDAO = () => {
 
               <div className="text-center text-white/50 text-xs leading-relaxed mt-12 max-w-4xl">
                 DISCLAIMER: CRYPTOCURRENCIES ARE HIGHLY SPECULATIVE AND INVOLVE
-                SIGNIFICANT RISKS. THE VALUE OF NOVA TOKENS MAY FLUCTUATE
+                SIGNIFICANT RISKS. THE VALUE OF Nouwa TOKENS MAY FLUCTUATE
                 RAPIDLY, AND PARTICIPANTS SHOULD BE FULLY AWARE OF THE RISKS
                 INVOLVED IN CRYPTOCURRENCY INVESTMENTS BEFORE PARTICIPATING.
-                NOVA IS NOT AVAILABLE TO U.S. PERSONS OR ENTITIES, AS DEFINED
+                Nouwa IS NOT AVAILABLE TO U.S. PERSONS OR ENTITIES, AS DEFINED
                 UNDER U.S. SECURITIES LAWS AND REGULATIONS. IT IS THE
                 RESPONSIBILITY OF PARTICIPANTS TO ENSURE THAT THEIR JURISDICTION
                 ALLOWS PARTICIPATION BEFORE GETTING INVOLVED.
@@ -1430,7 +1430,7 @@ const NovaDAO = () => {
                               <div className="bg-green-500/20 text-green-400 px-2 py-0.5">
                                 FOR
                               </div>
-                              <div>250,000 NOVA</div>
+                              <div>250,000 Nouwa</div>
                             </div>
                             <div className="flex justify-between items-center text-xs">
                               <div className="font-mono text-white/80">
@@ -1439,7 +1439,7 @@ const NovaDAO = () => {
                               <div className="bg-red-500/20 text-red-400 px-2 py-0.5">
                                 AGAINST
                               </div>
-                              <div>180,000 NOVA</div>
+                              <div>180,000 Nouwa</div>
                             </div>
                             <div className="flex justify-between items-center text-xs">
                               <div className="font-mono text-white/80">
@@ -1448,7 +1448,7 @@ const NovaDAO = () => {
                               <div className="bg-blue-500/20 text-blue-400 px-2 py-0.5">
                                 ABSTAIN
                               </div>
-                              <div>120,000 NOVA</div>
+                              <div>120,000 Nouwa</div>
                             </div>
                           </div>
                         </div>
@@ -1483,8 +1483,7 @@ const NovaDAO = () => {
                             </div>
                             {isConnected && (
                               <div className="mt-1 text-white/40">
-                                Staking NOVA will increase your voting power up
-                                to 3x
+Nouwa                                to 3x
                               </div>
                             )}
                             {!isConnected && (
@@ -1854,13 +1853,13 @@ const NovaDAO = () => {
                           <span className="text-white font-medium">
                             Important:
                           </span>{" "}
-                          Creating a proposal requires 100,000 NOVA tokens.
+                          Creating a proposal requires 100,000 Nouwa tokens.
                         </p>
                         <p>
                           Your current balance:{" "}
                           <span className="text-white font-medium">
                             {isConnected ? (novaBalance || 0).toFixed(2) : 0}{" "}
-                            NOVA
+                            Nouwa
                           </span>
                         </p>
                       </div>
@@ -1932,4 +1931,4 @@ const NovaDAO = () => {
   );
 };
 
-export default NovaDAO;
+export default Nouwa;

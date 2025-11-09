@@ -1176,7 +1176,7 @@ export default function AIPage() {
               >
                 <ambientLight intensity={0.6} />
                 <DynamicDotArchVisualization
-                  greeting="//Hi, I'm N.OVA AI."
+                  greeting="//Hi, I'm Nouwa AI."
                   dotSize={0.02}
                   dotOpacity={0.8}
                   dotColor="#FFFFFF"
@@ -1243,7 +1243,7 @@ export default function AIPage() {
                             <div className="w-8 h-8 flex items-center justify-center shrink-0 border border-white/30 overflow-hidden">
                               <Image
                                 src="/images/logo.png"
-                                alt="NOVA"
+                                alt="Nouwa"
                                 width={32}
                                 height={32}
                                 className="object-cover"
@@ -1500,7 +1500,7 @@ export default function AIPage() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 placeholder={
-                  messages.length > 0 ? "Message NOVA..." : "Ask NOVA..."
+                  messages.length > 0 ? "Message Nouwa..." : "Ask Nouwa..."
                 }
                 className="w-full bg-transparent px-6 py-4 pr-24 focus:outline-none placeholder-white/30 text-white"
                 onKeyDown={handleKeyDown}

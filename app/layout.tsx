@@ -8,7 +8,7 @@ import { ClientAudioProvider } from "@/components/client-audio-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "N.OVA",
+  title: "Nouwa",
   description: "A modern web3 application",
 }
 

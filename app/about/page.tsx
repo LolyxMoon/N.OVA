@@ -396,27 +396,27 @@ export default function AboutPage() {
   // FAQ items
   const faqItems = [
     {
-      question: "What is NOVA?",
+      question: "What is Nouwa?",
       answer:
-        "NOVA is a multi-agent AI platform that transforms Web3 wallets into smart, visual identities. It analyzes on-chain data to provide insights and creates a personalized visual identity for your wallet.",
+        "Nouwa is a multi-agent AI platform that transforms Web3 wallets into smart, visual identities. It analyzes on-chain data to provide insights and creates a personalized visual identity for your wallet.",
     },
     {
-      question: "Which blockchains does NOVA support?",
+      question: "Which blockchains does Nouwa support?",
       answer:
-        "Currently, NOVA supports Solana as our primary blockchain, with plans to expand to Ethereum and other major chains in upcoming releases.",
+        "Currently, Nouwa supports Solana as our primary blockchain, with plans to expand to Ethereum and other major chains in upcoming releases.",
     },
     {
-      question: "How does NOVA protect user privacy?",
+      question: "How does Nouwa protect user privacy?",
       answer:
-        "NOVA is designed with privacy at its core. While we analyze on-chain data, which is public by nature, we implement advanced encryption for any personal settings or preferences you create within the platform.",
+        "Nouwa is designed with privacy at its core. While we analyze on-chain data, which is public by nature, we implement advanced encryption for any personal settings or preferences you create within the platform.",
     },
     {
-      question: "Is NOVA open source?",
+      question: "Is Nouwa open source?",
       answer:
-        "Parts of NOVA are open source, particularly our core visualization libraries and blockchain connectors. Our proprietary AI models and identity generation systems are currently closed source.",
+        "Parts of Nouwa are open source, particularly our core visualization libraries and blockchain connectors. Our proprietary AI models and identity generation systems are currently closed source.",
     },
     {
-      question: "How can I get early access to NOVA?",
+      question: "How can I get early access to Nouwa?",
       answer:
         "You can join our waitlist by signing up on our homepage. Early access invitations are being rolled out gradually, with priority given to active community members and blockchain early adopters.",
     },
@@ -461,7 +461,7 @@ export default function AboutPage() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div>
                       <p className="text-white/70 uppercase mb-6">
-                        N.OVA TRANSFORMS ANY WEB3 WALLET INTO A SMART, VISUAL, AND
+                        Nouwa TRANSFORMS ANY WEB3 WALLET INTO A SMART, VISUAL, AND
                         CONVERSATIONAL IDENTITY THAT EMPOWERS USERS TO TRULY
                         UNDERSTAND AND LEVERAGE THEIR ON-CHAIN DATA.
                       </p>
@@ -616,7 +616,7 @@ export default function AboutPage() {
               >
                 <SectionHeader 
                   title="Team" 
-                  subtitle="THE BUILDERS BEHIND THE NOVA ECOSYSTEM"
+                  subtitle="THE BUILDERS BEHIND THE Nouwa ECOSYSTEM"
                 />
                 
                 <div className="grid grid-cols-3 gap-0">
@@ -791,7 +791,7 @@ export default function AboutPage() {
               >
                 <SectionHeader 
                   title="FAQ" 
-                  subtitle="COMMON QUESTIONS ABOUT THE NOVA PLATFORM"
+                  subtitle="COMMON QUESTIONS ABOUT THE Nouwa PLATFORM"
                 />
                 
                 <div className="space-y-0">
@@ -815,10 +815,10 @@ export default function AboutPage() {
                   className="border border-white/30 p-0.5 mt-12"
                 >
                   <div className="border border-white/10 p-8 text-center">
-                    <h3 className="text-3xl font-light mb-4">Join The NOVA Evolution</h3>
+                    <h3 className="text-3xl font-light mb-4">Join The Nouwa Evolution</h3>
                     <p className="text-white/70 text-sm max-w-2xl mx-auto mb-6">
                       Be part of our journey as we redefine how users interact with blockchain technology. 
-                      Sign up for early access and help shape the future of NOVA.
+                      Sign up for early access and help shape the future of Nouwa.
                     </p>
                     
                     <button className="bg-white text-black px-6 py-3 uppercase hover:bg-white/90 transition-colors">

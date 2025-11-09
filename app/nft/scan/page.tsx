@@ -246,7 +246,7 @@ export default function IdentityCardScan() {
                     {/* Verification */}
                     <div className="flex justify-between items-end mt-8">
                       <div className="text-xs text-white/40 tracking-wider">
-                        NOVA · SECURE BLOCKCHAIN IDENTITY
+                        Nouwa · SECURE BLOCKCHAIN IDENTITY
                       </div>
                       <div className="text-xs text-white/50 font-mono">
                         ID:#{generateVerificationCode()}

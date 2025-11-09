@@ -315,7 +315,7 @@ export default function TechnologySection() {
         <div className="absolute bottom-0 left-0 right-0 border-t border-white/10 py-3 z-30">
           <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
             <div className="text-xs text-white/60 uppercase">
-              N.OVA Technology
+              Nouwa Technology
             </div>
             <div className="text-xs text-white/60 uppercase">
               {currentPhaseData.title}

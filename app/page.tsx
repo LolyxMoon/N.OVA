@@ -325,7 +325,7 @@ export default function Home() {
                   00:1
                 </span>
                 <span className="text-xs text-white/60 mr-3 font-mono">
-                  N.OVA
+                  Nouwa
                 </span>
                 <div className="w-2 h-2 rounded-full bg-purple-500/40 mr-3 animate-pulse"></div>
                 <span className="text-xs text-white/60 font-mono">
@@ -340,7 +340,7 @@ export default function Home() {
                 transition={{ duration: 0.5, delay: 2.2 }}
               >
                 <div className="flex items-center space-x-3">
-                  <span className="font-mono text-white/60 text-xs">N.OVA</span>
+                  <span className="font-mono text-white/60 text-xs">Nouwa</span>
                   <motion.div
                     className="w-10 h-[1px] bg-white/20"
                     animate={{
@@ -528,7 +528,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-900/10 via-blue-900/10 to-purple-900/10 rounded-lg blur-xl transform scale-110 -z-10"></div>
 
                 <p className="text-xl md:text-2xl text-white/80 text-center px-8 py-6 leading-relaxed">
-                  N.OVA exists to create a future where super intelligence
+                  Nouwa exists to create a future where super intelligence
                   serves humanity, not controls it. We are building the
                   foundations of a
                   <span className="text-purple-300">
@@ -912,7 +912,7 @@ export default function Home() {
                 <div className="flex items-center space-x-3">
                   <span className="font-mono text-white/60 text-xs flex items-center">
                     <span className="w-1 h-1 rounded-full bg-purple-500 mr-2"></span>
-                    <span>N.OVA —</span>
+                    <span>Nouwa —</span>
                   </span>
                   <span className="font-mono text-white/60 text-xs uppercase tracking-wider">
                     More Than Just An AI
@@ -985,7 +985,7 @@ export default function Home() {
       {/* Minimalist header */}
       <div className="mb-8">
         <div className="text-xs uppercase tracking-widest text-white/60 mb-4">
-          N.OVA Ecosystem
+          Nouwa Ecosystem
         </div>
         <h2 className="text-7xl font-light mb-6 text-center">
           OUR PRODUCTS
@@ -994,7 +994,7 @@ export default function Home() {
       </div>
 
       <p className="text-lg text-white/70 max-w-2xl text-center">
-        Explore the complete suite of N.OVA technologies powering the next generation 
+        Explore the complete suite of Nouwa technologies powering the next generation 
         of decentralized artificial intelligence.
       </p>
     </div>
@@ -1549,7 +1549,7 @@ export default function Home() {
         </div>
 
         <p className="text-white/60 mb-6 flex-grow text-sm">
-          Complete analytics and management interface for your N.OVA assets, 
+          Complete analytics and management interface for your Nouwa assets, 
           activities, and rewards, with real-time network metrics.
         </p>
 
@@ -1685,7 +1685,7 @@ export default function Home() {
 
         <p className="text-white/60 mb-6 flex-grow text-sm">
           Decentralized governance system where humans and AI collaborate to guide the
-          future of the N.OVA ecosystem through transparent decision-making.
+          future of the Nouwa ecosystem through transparent decision-making.
         </p>
 
         <div className="flex items-center mt-auto">
@@ -1709,7 +1709,7 @@ export default function Home() {
   <div className="absolute bottom-0 left-0 right-0 border-t border-white/10 py-3 z-10">
     <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
       <div className="text-xs text-white/60 uppercase">
-        N.OVA Ecosystem
+        Nouwa  Ecosystem
       </div>
       <div className="text-xs text-white/60 uppercase">
         Integrated Products
@@ -2248,7 +2248,7 @@ export default function Home() {
           },
           {
             title: "Exclusive Benefits",
-            description: "Premium access to all N.OVA products and services",
+            description: "Premium access to all Nouwa products and services",
             icon: "★",
           },
         ].map((feature, index) => (
@@ -2327,7 +2327,7 @@ export default function Home() {
   <div className="absolute bottom-0 left-0 right-0 border-t border-white/10 py-3 z-10">
     <div className="container mx-auto px-4 flex justify-between items-center">
       <div className="text-xs text-white/40 uppercase">
-        N.OVA
+        Nouwa
       </div>
       <div className="text-xs text-white/40 uppercase">
         Join the Sovereign AI Revolution
